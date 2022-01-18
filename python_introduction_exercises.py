@@ -1,10 +1,19 @@
+#%%
 def hello_world():
-    
-    return print("HELLO, " + str + "!")
+    str1 = "WORLD"
+print("HELLO " + str1 + "!")
+
+
+#%%
+def hello_world():
+
+    return
 
 str1 = "WORLD"
+print("HELLO " + str1 + "!")
 
-print , str.hello_world
+
+
 #%%
 
 
@@ -15,5 +24,4 @@ print , str.hello_world
 
 
 
-
-
+# %%
