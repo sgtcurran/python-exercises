@@ -74,7 +74,23 @@ User_Input = int(input('multiplication table up through 10'))
 for i in range(1, 11):
     print(User_Input, '*', i, '=', (User_Input*i))
 # %%
-num = 1
-for i in range (1, 999999999):
-    print(num*11)
+num = int(9)
+for i in range (1, num+1):
+    for j in range(1, i+1):
+          print(i, end="")
+    print()
+    
+# %%
+# break and continue
+
+User_Input = int(input('enter odd number between 1 & 50'))
+
+for i in range(50):
+    if User_Input % 2 != 0:  
+        print(User_Input)
+    break
+
+    
+
+    
 # %%
