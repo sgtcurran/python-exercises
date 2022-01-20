@@ -1,4 +1,5 @@
 from calendar import THURSDAY, WEDNESDAY
+from cmath import sqrt
 from pickle import FALSE
 #Conditional Statements 
 #prompt the user for a day of the week, print out whether the day is Monday or not
@@ -37,8 +38,6 @@ if User_Input:
         print("Gross Pay: $", GrossPay)
         
 
-
-
 # %%
 #2 Loop Basics 
 i = 5
@@ -48,7 +47,7 @@ while i <= 15:
 
 # %%
 i = 0
-while <= 100:
+while i <= 100:
     print(i)
     i += 2
 #%% 
@@ -57,4 +56,25 @@ while i >= -10:
     print(i)
     i -= 5
 
+# %%
+i = 2
+while i <= 1000000:
+    print(i)
+    i = i**2
+# %%
+i = 100
+while i >= 5:
+    print(i)
+    i -= 5
+# %%
+#For Loops
+#i
+User_Input = int(input('multiplication table up through 10'))
+
+for i in range(1, 11):
+    print(User_Input, '*', i, '=', (User_Input*i))
+# %%
+num = 1
+for i in range (1, 999999999):
+    print(num*11)
 # %%
