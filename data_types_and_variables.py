@@ -29,7 +29,7 @@ cs = 'class schedual'
 cf = 'class full'
 cr = 'can enroll'
 
-if c > cf:
+if c < cf:
     FALSE
 if cc >= cs:
     FALSE
@@ -65,7 +65,7 @@ un_and_pw_diff = un != pw
 un_has_space = un != un.strip()
 pw_has_space = pw != pw.strip()
 
-if True:
+if un and pw is True:
     print("good")
 else:
     print("not good")
