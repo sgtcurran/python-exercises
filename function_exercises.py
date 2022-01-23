@@ -59,23 +59,22 @@ print(upper_con(str1))
 print(upper_con(str2))
 print(upper_con(str3))
 # %%
-#5
+#5 user based input of bill plus 20% tip
 user_input=float(input('enter total bill to get tip'))
 def calculate_tip(tip):
     tip = 0.20
     
     return float(tip * user_input) + (user_input)
 
-print('bill plus tip =', calculate_tip(user_input))
-
-
-
+print('bill plus 20% tip =', calculate_tip(user_input))
 #%%
 #6
-def apply_discount(price, discount):
-    discount = price * discount
-    return discount 
-dis = .20
+def apply_discount(discount_total):
+    discount_total = (price * discount)
+    total = (price - discount_total)
+    return total
+discount = .20
+price = 10
+print('price = $10 Discount - 20% = ', apply_discount(discount))
 
-print(10, .5, apply_discount)
 # %%
