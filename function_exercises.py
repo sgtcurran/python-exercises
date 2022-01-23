@@ -1,5 +1,6 @@
 #%%
 #1
+from curses.ascii import isdigit
 from email import charset
 
 
@@ -59,6 +60,14 @@ print(upper_con(str2))
 print(upper_con(str3))
 # %%
 #5
+user_input=float(input('enter total bill to get tip'))
+def calculate_tip(tip):
+    tip = 0.20
+    
+    return float(tip * user_input) + (user_input)
+
+print('bill plus tip =', calculate_tip(user_input))
+
 
 
 #%%
@@ -66,5 +75,7 @@ print(upper_con(str3))
 def apply_discount(price, discount):
     discount = price * discount
     return discount 
+dis = .20
+
 print(10, .5, apply_discount)
 # %%
